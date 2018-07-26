@@ -1,0 +1,49 @@
+﻿body {
+    background-image: url("Sun-rays-in-forest.jpg");
+    background-size: 1500px 2000px;
+    margin-left:0px;
+}
+h1 {
+    color: yellow;
+    font-family: fantasy;
+    font-size: 3em;
+    text-align: center;
+    border-bottom: 5px solid;
+    border-right: 5px solid;
+    border-color: lightseagreen;
+    width: 400px;
+    margin:1px,0px;
+    box-shadow:4px 4px 5px;
+    box-shadow:rgb(53, 112, 48);
+}
+img {
+    height: 200px;
+    width: 350px;
+    margin: 10px;
+    transition: all 1s;
+    
+}
+    img:hover {
+        transform:scale(1.1);
+        
+        
+    }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+#mc-embedded-subscribe {
+    position: absolute;
+    justify-content: center;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:pointer;
+    left: 600px;
+}
