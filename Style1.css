@@ -20,8 +20,8 @@ img {
     height: 200px;
     width: 350px;
     margin: 10px;
+    align-content: space-around;
     transition: all 1s;
-    
 }
     img:hover {
         transform:scale(1.1);
