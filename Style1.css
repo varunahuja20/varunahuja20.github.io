@@ -20,8 +20,9 @@ img {
     height: 200px;
     width: 350px;
     margin: 10px;
-    align-content: space-around;
+    align-content:space-around;
     transition: all 1s;
+    
 }
     img:hover {
         transform:scale(1.1);
@@ -34,7 +35,7 @@ img {
     justify-content:space-around;
 }
 #mc-embedded-subscribe {
-    position: absolute;
+    position: relative;
     justify-content: center;
     background-color: #4CAF50;
     border: none;
@@ -45,5 +46,5 @@ img {
     display: inline-block;
     font-size: 16px;
     cursor:pointer;
-    left: 600px;
+   
 }
